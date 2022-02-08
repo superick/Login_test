@@ -19,7 +19,9 @@ class MainActivity : AppCompatActivity() {
 
             if (inputId == "admin@test.com" && inputPw == "qwer") {
 
-                Toast.makeText(this, "관리자입니다.", Toast.LENGTH_SHORT).show()
+                val name = "최고훈남"
+
+                Toast.makeText(this, "${name}관리자입니다.", Toast.LENGTH_SHORT).show()
 
             }
 
